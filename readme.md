@@ -1,4 +1,4 @@
-# TASK 2 - Calculator
+# Car Insurance Calculator
 
 Write a simple car insurance calculator which will output price of the policy using vanilla PHP
 and JavaScript:
