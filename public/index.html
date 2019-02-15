@@ -1,0 +1,73 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+  <!--[if lte IE 9]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  <![endif]-->
+
+  <form id="calculate-form" action="calculate.php" method="get">
+    <label>Total value <input name="total_value" value="10000"></label>
+    <label>Tax <input name="tax" value="10"></label>
+    <label>Installments <input name="installments" value="2"></label>
+    <label><input type="submit" value="Calculate"></label>
+  </form>
+
+  <table id="cost-table" border="1">
+    <tr>
+      <td></td>
+      <td>Policy</td>
+      <td>Installment</td>
+    </tr>
+    <tr>
+      <td>Value</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Base premium 11%</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Commission 17%</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Tax 10%</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Total cost</td>
+      <td></td>
+      <td></td>
+    </tr>
+  </table>
+
+  <script src="js/vendor/modernizr-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>
